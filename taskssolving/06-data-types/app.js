@@ -1,0 +1,14 @@
+let s = "Hello";
+let n = 45;
+let bool = true;
+let x = null;
+let un = undefined;
+let laptop = { cpu: "i-5", ram: "32gb" };
+let arr = [s, n, bool, x, un, laptop];
+console.log(s, n, bool, x, un, laptop, arr);
+console.log(typeof s);
+console.log(typeof n);
+console.log(typeof bool);
+console.log(typeof un);
+console.log(typeof laptop);
+console.log(typeof arr);
