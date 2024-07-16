@@ -1,0 +1,3 @@
+const myNumber =10
+const myNumber2=3
+console.log(myNumber%myNumber2)

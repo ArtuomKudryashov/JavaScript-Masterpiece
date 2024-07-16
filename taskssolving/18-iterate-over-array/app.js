@@ -15,7 +15,18 @@ allTypes.push(false)
 allTypes.push("string")
 allTypes.push(5)
 console.log(allTypes)
-console.log(allTypes.length)
-allTypes.push(5, undefined)
-console.log(allTypes)
-console.log(allTypes.length)
+
+allTypes.forEach((element)=>{
+    console.log(element)
+})
+allTypes.forEach((element)=>
+    console.log(element))
+
+console.log('<<<<<<<<<<>>>>>>>>>')
+
+allTypes.forEach(function(element) {
+    console.log(element);
+});
+
+
+

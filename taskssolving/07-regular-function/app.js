@@ -1,5 +1,8 @@
-function name(){
+function printMyName(){
     console.log("Artuom")
 }
 
-name()
+printMyName()
+
+const a = printMyName()
+console.log(a)

@@ -10,3 +10,9 @@ console.log(nam2)
 
 console.log(nam('Artuom'))
 console.log(nam('Richard'))
+
+function printLastName() {
+    const lN = 'Kudryashov'
+    console.log(lN)
+}
+ printLastName()
