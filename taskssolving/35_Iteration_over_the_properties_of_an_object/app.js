@@ -15,7 +15,7 @@ console.log(Object.keys(myObject))
 console.log(Object.values(myObject))
 console.log(myObject)
 
-//Массив
+console.log("<<<<<<<<<<<<<<<<<Массив>>>>>>>>>>>>>")
 console.log ("Массив ключей и значений")
 Object.keys(myObject).forEach(key => {
     console.log(key, myObject[key])

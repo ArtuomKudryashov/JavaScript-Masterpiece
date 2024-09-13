@@ -8,5 +8,5 @@ function diff (a, b){
     return  a - b
 }
 
-const result= diff(10,5)
+const result= diff(10,15)
 console.log(result)

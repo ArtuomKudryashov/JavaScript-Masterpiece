@@ -16,3 +16,12 @@ function printLastName() {
     console.log(lN)
 }
  printLastName()
+
+ function printMyName(){
+    console.log("Artuom")
+}
+
+printMyName()
+
+const a = printMyName()
+console.log(a)
